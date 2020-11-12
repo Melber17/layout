@@ -1,0 +1,144 @@
+@media (min-width:1170px){
+    .container{
+      max-width: 1170px;
+    }
+  }
+  @media(max-width:992px) {
+    .top .menu-icon-wrapper {
+     opacity: 1;
+    }
+    .top__left-menu {
+      display:none;
+    }
+    .top__right-menu {
+      display: none;
+    }
+    .top__menu {
+      justify-content: unset;
+
+    }
+    .top__center {
+      margin-left:40%;
+    }
+    .time__content {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .time__contentLeft {
+      margin-bottom: 40px;
+    }
+    .device__content {
+      flex-direction: column;
+
+    }
+    .map__content {
+      flex-direction: column;
+    }
+    .map {
+      padding-top: 115px;
+    }
+    .similarText {
+     max-width: 100%;
+     margin-left:20px;
+    }
+    .device__img {
+      transform: scale(1.1) translate(-4px , -40px) ;
+    }
+    .map__img {
+      transform: scale(0.9) translate(-1px , 65px);
+    }
+   .screens__img-1 , .screens__img-2 , .screens__img-4 , .screens__img-5 {
+     width:300px;
+   } 
+   .screens__img-3 {
+     width:350px;
+   }
+   .screens__img-1 {
+margin-left:-690px;
+   }
+   .screens__img-2 {
+     margin-left:-442px;
+   } 
+   .screens__img-4 {
+     margin-right:-407px;
+   }
+   .screens__img-5 {
+     margin-right: -650px;
+   }
+   .choose__mainContent {
+     flex-direction: column;
+   }
+   .choose__leftContent {
+     width:100%;
+     text-align: center;
+     padding-bottom: 70px;
+   }
+   .choose__contentRight {
+     flex-direction: column;
+     align-items: center;
+   }
+   .choose__secondCard {
+     margin-top:60px;
+   }
+   .footer__mainContent {
+     padding-left: 60px;
+     flex-direction: column;
+     align-items: start;
+   }
+   .footer__rightContent {
+     margin-top: 60px;
+     flex-direction: column;
+     margin-left:inherit;
+   }
+   .footer-bottomContent {
+     flex-direction: column;
+     align-items: flex-start;
+   }
+   .footer__rightBlock {
+     margin-top: 20px;
+     margin-left:unset;
+   }
+   .footer__list {
+     margin-top: 30px;
+   }
+   .choose__title {
+     text-align: center;
+   }
+   .choose__switch-miniTItle {
+     text-align: center;
+   }
+   .choose__toggles {
+     margin:20px auto;
+   }
+   .choose {
+     padding-top: 100px;
+   }
+  }
+  @media(max-width:768px) {
+    .top__center {
+      margin-left:35%;
+    }
+  }
+  @media(max-width:576px) {
+    .header__happen {
+      font-size: 46px;
+    }
+    .header__text {
+      font-size: 16px;
+    }
+    .top__center {
+      margin-left:30%;
+    }
+    .icon i {
+      font-size: 37px;
+    }
+    .time__someText {
+      font-size: 16px;
+    }
+    .similar-p {
+      font-size: 17px;
+    }
+  }
+  @media(max-width:400px) {
+    
+  }
